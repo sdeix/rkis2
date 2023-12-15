@@ -1,6 +1,6 @@
 from .models import *
 from rest_framework import serializers
-from .permissions import IsAdminOrReadOnly
+
 
 
 class BookSerializer(serializers.ModelSerializer):
